@@ -1,0 +1,28 @@
+{
+ "name": "web-starter-kit",
+ "version": "0.0.1",
+ "description": "Start your new website project with this package (there is all you need in it)",
+ "main": "index.js",
+ "scripts": {
+  "build-css": "node-sass --include-path scss scss/main.scss   public/css/main.css",
+  "watch-css": "nodemon -e scss -x \"npm run build-css\""
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/Tentyfire/Web-Starter-Kit.git"
+ },
+ "author": "Jérémy Mayhew (Tentyfire)",
+ "license": "GPL-3.0",
+ "bugs": {
+  "url": "https://github.com/Tentyfire/Web-Starter-Kit/issues"
+ },
+ "homepage": "https://github.com/Tentyfire/Web-Starter-Kit#readme",
+ "devDependencies": {
+  "node-sass": "^4.7.2",
+  "nodemon": "^1.17.1"
+ },
+ "dependencies": {
+  "bootstrap": "^4.0.0",
+  "popper.js": "^1.12.9"
+ }
+}
